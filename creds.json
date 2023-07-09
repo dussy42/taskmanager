@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "discountonorder",
+  "private_key_id": "14cd7b7677b89ea9b69e50c95b1f9a217ee016be",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5YsupGBX2Q+lT\nx07qUy49d+VX62grNNVULw4/Tq8aYt1qnQwCxVz89+SMB9rnT/1L62ZFB6b9T0Ui\n446YdvdDaNcfn0xZ8+bD9pmuI/fEgQ8MoNKNPyFHmAD1UQKEDMdjPvSeBxqoX+hH\nulhtqXqU189GIqqdDEdW9Bp9cQkCSimnLn80W+5RXgZkbO0mOMFisFw5fzzYdYIJ\nn08HuCUt72vF/4y1Ubd1igvwDREHmsMaVBa0VkEMq0bEO/Z5JMUoWT2FBO2s5fcR\nI94veESctMJCwSCNsSWTbetoeBHtGaE4MJGhvDz5X8OewfUyjb8JCICKZxTRkpWW\nzMmRC97RAgMBAAECggEAEkEMQvqOSg0Sk+dlibz2SgLs5CD3xT5a7aLDBUCNDRz0\nRqfPW5P9taJ+oHuzBjEKBNBZZf1sh9eG/BoaS8C2FO8FNLXJrbdOjxfwdrVPs6uO\nFO0egl43m4439O/cvq4n8Wms6kUSjsb/zxVGGQk1uuN7o0EtWdCwUxtu4tBvJciG\n7kh9fFq8FHACXTTXhtePXDN/Wybzqa+V7xe7YXVYaaoseYDc6hAbZ94hjd/ejulD\nHfLuhbDVAFfTVm7kZ3k0FhHSFXAcw5461Oa5cwZap5IrF2xlgjm1/TWBsdIuYOSh\nYM7uUMlEXv+ligj2QV9iFlmXFN4o9KVzKqL04femqQKBgQDokROPM3bIKarZE0Kg\nuwlLKi7FRIKGFoIx5xYRLgVek60uXR9BCrYAljsLvFCPcadvtQ3tJz/2Se8HUbzY\nhzygYgU5m2keAfAqaVLt4fLNePA5TKK/PDLYo7inntPaOGrJrTnB5JLgrJBG55Dx\nd0z+rWAlcaFnsjkClMvoHH4mGQKBgQDMELfVmpXmRgE6Ic4cA10dYLQHWRqSzPL+\n8RW/EfUSFenyfAng8f1o3uub47k8bHJ6qorJ71ZczczoRob/gMWIlxqZycFU6FiJ\nbuvTk4h2nLItB+RBXmCsQiELQ4UO6pmeBxdlY1V6YTXgMU2EMRbZzrXkJ99GnHND\ndGirHARleQKBgBoCB17vUWxHBJ0sAzp4UCzAteRHqhUWtU6hWh1nuR//gdF6hoE+\nkmX0ZvwD/jpcam4aoEkSJ5wCXqHB6U2JqiUBcTYlBBdf/hywFJ8XspB54tt1j4m1\nULZbcM4F/AkeYArXvWrKhgZsJeJYCSSHw+uDNgpZ78Pp8WgxfbAiZ5UZAoGBAJD7\nZ8DpHYsHPaPxlKAue599rypxUgHufs5Gtu6TcYyx6Q8QtWwOQb6acsbE2jxlyEgC\nlqy10KQKy4RTZ2JsOOu8f3e38hXDJfQuzHn7nb63wZdgvfj7dq+sJBH+nLBmWVH/\nM84i7v4NxttL7Aj5X4TL6kr5URa33OSV9i9rrmvxAoGAWPVSnZcZbBVigIzWo0IC\nCs43AuwEUU/ACh/ZYfhXfrabwzCnc9RA9Uzo1VlwWYn1/elH9e+lgnjnHA71pxH3\ndhdRgNv+zunQgzDsRvCgMxqLuZL25+de2iv2pVifT8A1R0unWZFvijEFsNV2zKoh\nsDZCEmIfNuwy6UYyy/3bpAI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "samuel-discount@discountonorder.iam.gserviceaccount.com",
+  "client_id": "103081668200437287313",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/samuel-discount%40discountonorder.iam.gserviceaccount.com"
+}
