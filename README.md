@@ -6,7 +6,7 @@ Key information for the app
 this section provides insight into the UX process, focusing on who the app is for, the main aims of the project and how the app can help users meet their needs
 ![shop](/assets/images/finterface.png)
 ![input](/assets/images/inputinterface.png)
-![contex](/assets/images/contineexit.png)
+![contex](/assets/images/continueexit.png)
 
 # Project goals:<br>
 To enable potential user have a real feel or simulation of real shopping
