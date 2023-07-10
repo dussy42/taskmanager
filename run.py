@@ -12,7 +12,7 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('discount-planner')
 
-
+print("welcome🎈 to the shop arena where you are free to name the product you want and give the market price👌 We they give you discounted prices lower than the market price💕")
 def calculate_discounted_price(price, discount_rate):
     discount_amount = price * discount_rate
     discounted_price = price - discount_amount
@@ -52,7 +52,7 @@ def update_sales_worksheet(data):
 
 
 def print_all_products(products):
-    print("All Products:")
+    print("Hurray🎶 here are the best offer for All Products you wanted:")
     for product in products:
         print(product)
 
