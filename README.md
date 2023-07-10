@@ -12,7 +12,8 @@ this section provides insight into the UX process, focusing on who the app is fo
 To enable potential user have a real feel or simulation of real shopping
 To give the user a free role to order without no constraint
 To give the client the best of prices with major discount
-While the foregoing are true, all datas will be pushed to worksheet for record and analytic purpose
+While the foregoing are true, all datas entered and rendered on screen are also pushed to worksheet for record and analytic purpose
+![worksheet](/assets/images/updatedworksheet.png)
 
 # Deployment
 Navigate to heroku.com & log in.
