@@ -1,4 +1,4 @@
-# Project three
+# TaskManager
 This project [discountshop](https://discountshop-e2a697cfe5bb.herokuapp.com/) generally entails customer input there orders and price while they enjoy masssive discount from the store. 
 ![home](/assets/images/finterface.png)
 # User Experience (UX)
