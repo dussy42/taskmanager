@@ -4,14 +4,15 @@ This project [discountshop](https://discountshop-e2a697cfe5bb.herokuapp.com/) ge
 # User Experience (UX)
 Key information for the app
 this section provides insight into the UX process, focusing on who the app is for, the main aims of the project and how the app can help users meet their needs
-![shop](/assets/images/finterface.png)
-![input](/assets/images/inputinterface.png)
-![contex](/assets/images/continueexit.png)
+
+![exit](/assets/images/exit.png)
 
 # Project goals:<br>
-To enable potential user have a real feel or simulation of real shopping
+To enable potential user have a real feel or simulation of real shopping <br>
 To give the user a free role to order without no constraint
+![input](/assets/images/inputinterface.png) <br>
 To give the client the best of prices with major discount
+![contex](/assets/images/continueexit.png)<br>
 While the foregoing are true, all datas entered and rendered on screen are also pushed to worksheet for record and analytic purpose
 ![worksheet](/assets/images/updatedworksheet.png)
 
