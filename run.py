@@ -31,6 +31,14 @@ try:
     GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
     SHEET = GSPREAD_CLIENT.open('discount-planner')
 
+
+except (requests.exceptions.ConnectionError):
+    print(connectionerror)
+except (google.auth.exceptions.TransportError):
+    print(connectionerror)
+except (Exception):
+    print("We an error at our end , sorry for the inconviniences")
+    
 print("welcome🎈 to the shop arena 👌 We give you discounted prices lower than the market price💕")
 def calculate_discounted_price(price, discount_rate):
     discount_amount = price * discount_rate
