@@ -1,5 +1,7 @@
 import gspread
+import requests
 from google.oauth2.service_account import Credentials
+import google
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -7,10 +9,27 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-CREDS = Credentials.from_service_account_file('creds.json')
-SCOPED_CREDS = CREDS.with_scopes(SCOPE)
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
-SHEET = GSPREAD_CLIENT.open('discount-planner')
+connectionerror = '''
+Connections error....`
+Try:
+
+Checking your internet connection
+Checking your proxy, firewall
+Running Windows Network Diagnostics
+
+
+
+'''
+
+
+SHEET = None
+
+
+try:
+    CREDS = Credentials.from_service_account_file('creds.json')
+    SCOPED_CREDS = CREDS.with_scopes(SCOPE)
+    GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+    SHEET = GSPREAD_CLIENT.open('discount-planner')
 
 print("welcome🎈 to the shop arena 👌 We give you discounted prices lower than the market price💕")
 def calculate_discounted_price(price, discount_rate):
