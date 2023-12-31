@@ -38,12 +38,21 @@ except (google.auth.exceptions.TransportError):
     print(connectionerror)
 except (Exception):
     print("We an error at our end , sorry for the inconviniences")
-    
+
 print("welcome🎈 to the shop arena 👌 We give you discounted prices lower than the market price💕")
 def calculate_discounted_price(price, discount_rate):
     discount_amount = price * discount_rate
     discounted_price = price - discount_amount
     return discounted_price
+
+def getprice(data="Enter the product price: "):
+    price = input(data)
+    if (price.isnumeric() and float(price) > 0):
+        return price
+
+    return getprice("please enter a valid whole number price greater than 0...\n")
+
+
 
 
 def get_data():
