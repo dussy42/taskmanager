@@ -52,14 +52,20 @@ def getprice(data="Enter the product price: "):
 
     return getprice("please enter a valid whole number price greater than 0...\n")
 
-
+def getproduct(data="Enter the product name: "):
+    product = input(data)
+    if (len(product) < 3 or not product[:3].isalpha()):
+        return getproduct("please enter a valid product... a product must begin with first three character...\n")
+    return product
 
 
 def get_data():
     # Get user input
-    product_name = input("Enter the product name: ")
-    product_price = float(input("Enter the product price: "))
+    product_name = getproduct()
+    price = getprice()
 
+    product_price = float(price)
+    
     # Define the discounts for each season
     season_discounts = [
         {"season": "summer", "discount_rate": 0.1},   # 10% off in summer
