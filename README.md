@@ -13,7 +13,7 @@ To give the user a free role to order without no constraint
 To give user the best of prices with major seasonal discount
 ![option](/assets/images/priceoption.png)<br>
 To give freedom of choice to customer to choose any of the four discounted prices
-![index](/assets/images/priceoindex.png)<br>
+![index](/assets/images/priceindex.png)<br>
 To give a clear feedback to the customer sequel to completing the prior process
 ![feedback](/assets/images/feedback.png)<br>
 To provide an option for customers to create another order
