@@ -1,5 +1,5 @@
 # TaskManager
-This project [discountshop](https://discountshop-e2a697cfe5bb.herokuapp.com/) generally entails customer input there orders and price while they enjoy masssive discount from the store. 
+This project [discountshop](https://discountshop-e2a697cfe5bb.herokuapp.com/) generally entails customer input there orders and price while they enjoy masssive seasonal discount from the store. 
 ![home](/assets/images/finterface.png)
 # User Experience (UX)
 Key information for the app
@@ -8,11 +8,16 @@ this section provides insight into the UX process, focusing on who the app is fo
 ![exit](/assets/images/exit.png)
 
 # Project goals:<br>
-To enable potential user have a real feel or simulation of real shopping <br>
 To give the user a free role to order without no constraint
 ![input](/assets/images/inputinterface.png) <br>
-To give the client the best of prices with major discount
-![contex](/assets/images/continueexit.png)<br>
+To give user the best of prices with major seasonal discount
+![option](/assets/images/priceoption.png)<br>
+To give freedom of choice to customer to choose any of the four discounted prices
+![index](/assets/images/priceoindex.png)<br>
+To give a clear feedback to the customer sequel to completing the prior process
+![feedback](/assets/images/feedback.png)<br>
+To provide an option for customers to create another order
+![neworder](/assets/images/neworder.png)<br>
 While the foregoing are true, all datas entered and rendered on screen are also pushed to worksheet for record and analytic purpose
 ![worksheet](/assets/images/updatedworksheet.png)
 
