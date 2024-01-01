@@ -137,6 +137,7 @@ def selectproduct(product):
     pricenum = getpriceindex()
     return [product["product_name"], product["userprice"], prices[pricenum-1]]
 
+
 def main():
     """starter function for the algorithm"""
    
