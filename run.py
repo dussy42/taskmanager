@@ -132,19 +132,19 @@ userprice:          {products["userprice"]}
 discounted price:
 {desobj(products["discounts"]) }""")
 
-
-def selectproduct(product):
-    priceobj = product["discounts"]
-    seasons = list(priceobj.keys())
-    prices = list(priceobj.values())
-
-    def getpriceindex(data="select product by entering the suitable index: "):
+def getpriceindex(data="select product by entering the suitable index: "):
         price = input(data).strip()
 
         if (price.isnumeric() and int(price) <= 4 and int(price) > 0):
             return int(price)
 
         return getpriceindex("please enter a valid index...\n")
+def selectproduct(product):
+    priceobj = product["discounts"]
+    seasons = list(priceobj.keys())
+    prices = list(priceobj.values())
+
+  
     pricenum = getpriceindex()
     return [product["product_name"], product["userprice"], prices[pricenum-1]]
 
@@ -169,5 +169,6 @@ def main():
         if choice.upper() != 'Y':
             break
 
+if __name__ =="__main__":
 
-main()
+    main()
